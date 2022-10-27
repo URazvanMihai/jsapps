@@ -22,6 +22,7 @@ function imgslider() {
         <Wrap>
             <img src = "/images/slider-badag.jpg"/>
         </Wrap>
+        
     </Carousel>
   )
 }
@@ -38,7 +39,7 @@ const Carousel = styled(Slider)`
         }
     }
 
-    .li.slick-active button: before {
+    .li.slick-active button:before {
         color:white;
     }
 
